@@ -1,0 +1,8 @@
+/* pages/movieplay/movieplay.wxss */
+.look{
+  padding-right: 400rpx;
+}
+
+.text{
+  margin-top: 200rpx;
+}

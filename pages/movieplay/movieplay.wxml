@@ -1,0 +1,73 @@
+<!--pages/movieplay/movieplay.wxml-->
+<cu-custom bgColor="bg-gradual-purple padding radius text-center shadow-blur" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">动漫播放</view>
+</cu-custom>
+
+<!-- <swiper class="screen-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+  <swiper-item wx:for="{{swiperList}}" wx:key="index">
+    <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+    <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+  </swiper-item>
+</swiper>
+
+<view>
+  <video></video>
+</view> -->
+
+<view class="bg-wihte padding-sm margin-xs radius">
+  
+  <view class="flex solid-bottom padding justify-center">
+      <cover-view class="padding-xs  text-xxl text-bold">
+      雾山五行
+    </cover-view>
+   </view>
+
+      <view class="page-body" style="text-aligin:center;">
+  
+    <view class="page-section tc">
+      <video id="myVideo" src="{{playList.filmUrl}}" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn show-center-play-btn='{{false}}' show-play-btn="{{true}}" controls picture-in-picture-mode="{{['push', 'pop']}}"
+        bindenterpictureinpicture='bindVideoEnterPictureInPicture' bindleavepictureinpicture='bindVideoLeavePictureInPicture'></video>
+    </view>
+
+  
+
+   
+
+
+
+    <view class="look">
+      
+      <text class="text">剧集</text>
+      <view class="flex  p-xs margin-bottom-sm mb-sm">
+        <view class="flex-sub bg-blue padding-sm margin-xs radius">
+          <button class="cu-btn  bg-blue" bindtap="butn" data-id="1">1</button>
+        </view>
+        <view class="flex-twice bg-blue padding-sm margin-xs radius">
+          <button class="cu-btn  bg-blue" bindtap="butn" data-id="2">2</button>
+        </view>
+        <view class="flex-treble bg-blue padding-sm margin-xs radius">
+          <button class="cu-btn  bg-blue" bindtap="butn" data-id="3">3</button>
+        </view>
+      </view>
+
+
+
+
+    </view>
+
+
+
+    <view style="margin: 30rpx auto" class="weui-label">弹幕内容</view>
+
+    <input bindblur="bindInputBlur" class="weui-input" type="text" placeholder="在此处输入弹幕内容" />
+
+    <button style="margin: 30rpx auto" bindtap="bindSendDanmu" class="page-body-button" type="primary" formType="submit">发送弹幕</button>
+
+    <navigator style="margin: 30rpx auto" url="picture-in-picture" hover-class="other-navigator-hover">
+      <button type="primary" class="page-body-button" bindtap="bindPlayVideo">小窗模式</button>
+    </navigator>
+
+
+  </view>
+</view>

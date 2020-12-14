@@ -1,0 +1,32 @@
+<cu-custom bgColor="bg-gradual-pink padding radius text-center shadow-blur" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">HW动漫</view>
+</cu-custom>
+
+
+<view class="bg-video bg-mask flex align-center" style="height: 422rpx;">
+  <video src="http://192.168.10.16:1016/one1.mp4" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover"></video>
+  <cover-view class="padding-xl text-white ">
+    <cover-view class="padding-xs  text-xxl text-bold">
+      雾山五行
+    </cover-view>
+    <cover-view class="padding-xs">
+      国漫巅峰 好看到不行的 .....
+    </cover-view>
+  </cover-view>
+</view>
+
+<view class="bg-white padding radius text-center shadow-blur">
+  <view class="padding-sm">
+    <view class="flex flex-wrap justify-around">
+      <button class="cu-btn bg-{{item.color}} animation-{{animation==item.name+'s'?item.name:''}} animation-reverse margin-sm basis-sm shadow" bindtap="toggle" data-index="{{index}}" data-class="{{item.name+'s'}}" wx:for="{{list}}" wx:key="index">{{item.name}}</button>
+    </view>
+  </view>
+
+
+    
+    <view class="padding-xl radius shadow-warp bg-white margin-top">
+    @HW
+    <image class= "look" src="http://192.168.10.16:1016/look.gif"></image>
+    </view>
+</view>

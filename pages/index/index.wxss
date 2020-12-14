@@ -1,0 +1,16 @@
+@import "../../colorui/animation.wxss";
+
+image[class*="gif-"] {
+  border-radius: 6rpx;
+  display: block;
+}
+
+.foot{
+  margin-top: 55rpx;
+  width: 1000rpx;
+  height: 300rpx;
+  background-color:#94B6DD;
+}
+.look{
+  height: 150rpx; 
+}

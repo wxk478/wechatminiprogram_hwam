@@ -1,0 +1,38 @@
+<!--pages/first/first.wxml-->
+<cu-custom bgColor="bg-gradual-green padding radius text-center shadow-blur" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">排行榜</view>
+</cu-custom>
+<view class="wenzi">
+<text decode="{{true}}"> 排&nbsp;行</text>
+</view>
+<view class="viewq">
+  <image class="images" src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2053874415,4155912612&fm=26&gp=0.jpg"/> 
+  <view class="wenziq">魁拔</view>
+  <view class="wenziw">导演:王川</view>
+</view>
+<view class="vieww">
+  <image class="images" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1616884973,78997309&fm=26&gp=0.jpg"/>
+  <view class="wenziq">火影忍者</view>
+  <view class="wenziw">作者:岸本齐史</view>
+</view>
+<view class="viewe">
+  <image class="images" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2141049192,3727120008&fm=26&gp=0.jpg"/>
+  <view class="wenziq">你的名字</view>
+  <view class="wenziw">导演:新海诚</view>
+</view >
+<view class="viewr">
+  <image class="images" src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2196046719,396722723&fm=26&gp=0.jpg"/>
+  <view class="wenziq">天气之子</view>
+  <view class="wenziw">导演:新海诚</view>
+</view>
+<view class="viewt">
+  <image class="images" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2554360201,509588054&fm=26&gp=0.jpg"/>
+  <view class="wenziq">海贼王</view>
+  <view class="wenziw"> 导演:新海诚</view>
+</view>
+<view class="viewy">
+  <image class="images" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1597748020,615204423&fm=26&gp=0.jpg"/>
+  <view class="wenziq">西游记之大圣归来</view>
+  <view class="wenziw">导演:田晓鹏</view>
+</view>

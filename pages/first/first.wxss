@@ -1,0 +1,79 @@
+/* pages/first/first.wxss */
+
+.wenzi{
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  padding-top:20rpx;
+  font-size:35rpx;
+
+}
+.viewq{
+  margin-top: 20rpx;
+  margin-left:40rpx ;
+  width: 90%;
+  height: 150rpx;
+  border-radius: 20rpx;
+  background-color:#003333;
+  background-color:rgba(0,102,51,0.6);
+}
+.vieww{
+  margin-top: 20rpx;
+  margin-left:40rpx ;
+  width: 90%;
+  height: 150rpx;
+  background-color:#333333;
+  background-color:rgba(102,102,51,0.6);
+  border-radius: 20rpx;
+}
+.viewe{
+  margin-top: 20rpx;
+  margin-left:40rpx ;
+  width: 90%;
+  height: 150rpx;
+  background-color:#336699;
+  background-color:rgba(51,102,204,0.8);
+  border-radius: 20rpx;
+}
+.viewr{
+  margin-top: 20rpx;
+  margin-left:40rpx ;
+  width: 90%;
+  height: 150rpx;
+  background-color:#0099cc;
+  background-color:rgba(0,153,204,0.8);
+  border-radius: 20rpx;
+}
+.viewt{
+  margin-top: 20rpx;
+  margin-left:40rpx ;
+  width: 90%;
+  height: 150rpx;
+  background-color:rgba(255,51,0,0.6);
+  border-radius: 20rpx;
+}
+.viewy{
+  margin-top: 20rpx;
+  margin-left:40rpx ;
+  width: 90%;
+  height: 150rpx;
+  background-color:rgba(255,204,204,0.6);
+  border-radius: 20rpx;
+}
+.images{
+  width: 130rpx;
+  height: 130rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  border-radius: 50%;
+}
+.wenziq{
+  margin-top: -90rpx;
+  text-align: center;
+  font-family:arial;
+}
+.wenziw{
+  margin-top: -35rpx;
+  margin-left:470rpx;
+  font-family:Monospace;
+}

@@ -1,0 +1,40 @@
+<!--pages/mine/mine.wxml-->
+<cu-custom bgColor="bg-gradual-red padding radius text-center shadow-blur" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">Music</view>
+</cu-custom>
+
+<view class="bg-white padding radius text-center shadow-blur">
+
+<view class="page">
+ 
+        <view class="page__bd">
+    <view class="section section_gap">
+      <audio src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" bindplay="audioPlayed" bindtimeupdate="audioTimeUpdated" controls></audio>
+    </view>
+ 
+  </view>
+
+  <view class="gif">
+    <image src="http://192.168.10.16:1016/timg.gif"/>
+  </view>
+  <view class="section section_gap">   
+    <view class="body-view">
+      <slider bindchange="timeSliderChanged" left-icon="cancel" right-icon="success_no_circle"/>
+    </view>
+  </view>
+  <view class="section section_gap">
+    <view class="button1">
+      <button bindtap="playAudio">{{play}}</button>
+    </view>
+  </view>
+
+
+
+  
+  
+
+</view>
+</view>
+
+
